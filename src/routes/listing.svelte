@@ -1,5 +1,5 @@
 <div class="col-3 col">
-			<div class="card" style="width: 8rem;">
+			<div class="card" style="width: 12rem;">
   				<div class="card-body">
     			<h4 class="card-title">My awesome Paper card!</h4>
     			<h5 class="card-subtitle">Nice looking subtitle.</h5>
