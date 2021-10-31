@@ -1,4 +1,4 @@
-<div class="col-3 col container-sm">
+<div class="col-6 col">
 			<div class="card" style="width: 20rem;">
   				<div class="card-body">
     			<h4 class="card-title">My awesome Paper card!</h4>
