@@ -24,6 +24,10 @@
 	<title>Paperkit</title>
 </svelte:head>
 
+//map targetLocation
+<input bind:value={targetLocation} placeholder="masukan lokasi">
+
+//map
 <div class="container-md">
 	<h1>SPaper</h1>
 	<div class="mapouter">
