@@ -24,12 +24,12 @@
 	<title>Paperkit</title>
 </svelte:head>
 
-//map targetLocation
-<input bind:value={targetLocation} placeholder="masukan lokasi">
 
-//map
+
 <div class="container-md">
 	<h1>SPaper</h1>
+	<input bind:value={targetLocation} placeholder="masukan lokasi">
+	
 	<div class="mapouter">
 	<div class="gmap_canvas">
 	<iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
