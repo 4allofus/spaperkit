@@ -2,6 +2,7 @@
 	import { page } from '$app/stores';
 	import logo from './svelte-logo.svg';
 	import 'papercss/dist/paper.min.css'
+	import { Navbar } from 'spaper';
 
 </script>
 
