@@ -5,6 +5,8 @@
     import { Button } from 'spaper';
     import { Alert } from 'spaper';
 
+	import Listing from './listing.svelte';
+
 	// we don't need any JS on this page, though we'll load
 	// it in dev so that we get hot module replacement...
 	export const hydrate = dev;
@@ -18,6 +20,8 @@
 	export const prerender = true;
 
 	let targetLocation = 'jakarta';
+
+
 </script>
 
 <svelte:head>
@@ -39,55 +43,12 @@
 
 </div>
 
-<div class="paper container-lg">
-	<div class="row">
-		<div class="col-3 col">
-			<div class="card" style="width: 20rem;">
-  				<div class="card-body">
-    			<h4 class="card-title">My awesome Paper card!</h4>
-    			<h5 class="card-subtitle">Nice looking subtitle.</h5>
-    			<p class="card-text">You can also place image on the bottom of the card.</p>
-    			<button>Saya tertarik</button>
-  				</div>
-  				<img class="image-bottom" src="https://unsplash.it/550/250" alt="Card example image">
-			</div>
-		</div>
-		<div class="col-3 col">
-			<div class="card" style="width: 20rem;">
-  				<div class="card-body">
-    			<h4 class="card-title">My awesome Paper card!</h4>
-    			<h5 class="card-subtitle">Nice looking subtitle.</h5>
-    			<p class="card-text">You can also place image on the bottom of the card.</p>
-    			<button>Saya tertarik</button>
-  				</div>
-  				<img class="image-bottom" src="https://unsplash.it/550/250" alt="Card example image">
-			</div>
-		</div>
-		<div class="col-3 col">
-			<div class="card" style="width: 20rem;">
-  				<div class="card-body">
-    			<h4 class="card-title">My awesome Paper card!</h4>
-    			<h5 class="card-subtitle">Nice looking subtitle.</h5>
-    			<p class="card-text">You can also place image on the bottom of the card.</p>
-    			<button>Saya tertarik</button>
-  				</div>
-  				<img class="image-bottom" src="https://unsplash.it/550/250" alt="Card example image">
-			</div>
-		</div>
-		<div class="col-3 col">
-			<div class="card" style="width: 20rem;">
-  				<div class="card-body">
-    			<h4 class="card-title">My awesome Paper card!</h4>
-    			<h5 class="card-subtitle">Nice looking subtitle.</h5>
-    			<p class="card-text">You can also place image on the bottom of the card.</p>
-    			<button>Saya tertarik</button>
-  				</div>
-  				<img class="image-bottom" src="https://unsplash.it/550/250" alt="Card example image">
-			</div>
-		</div>
-	</div>
-
+<div class="row">
+	<Listing\>
+	<Listing\>
+	
 </div>
+
 
 <style>
 </style>
