@@ -39,17 +39,17 @@
 	q={targetLocation}}&amp;
 	t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
 	</iframe><a href="https://www.fnfgo.com/">FNF</a></div>
-	<style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
-
+	<style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>	
 </div>
 
-<div class="row">
-	<Listing/>
-	<Listing/>
-	<Listing/>
-	<Listing/>
+<div class="paper container-lg">
+	<div class="row">
+		<Listing/>
+		<Listing/>
+		<Listing/>
+		<Listing/>
+	</div>
 </div>
-
 
 <style>
 </style>
