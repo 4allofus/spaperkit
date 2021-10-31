@@ -7,13 +7,8 @@
 </script>
 
 <header>
-	<div class="corner">
-		<a href="https://kit.svelte.dev">
-			<img src={logo} alt="SvelteKit" />
-		</a>
-	</div>
 
-	<Navbar split={false}>
+	<Navbar border={false}>
     	<h3 slot="PaperKit">
       	<a href="#">Paperkit</a>
     	</h3>
@@ -24,7 +19,6 @@
 			<li class:active={$page.path === '/paperkit'}><a sveltekit:prefetch href="/paperkit">paperkit</a></li>		
     	</ul>
   	</Navbar>
-
 
 </header>
 
